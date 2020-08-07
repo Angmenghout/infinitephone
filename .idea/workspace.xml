@@ -20,16 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94e02779-c30c-4cb5-8350-0a1a98855beb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/js/tinymce.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CompanyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CompanyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboradController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/companydetail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/company_detail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/dashboardLayout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/dashboardLayout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/media/1 z2uMzmh6FW7wT5nXB6Y7iQ-3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/media/9781408890042.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/editItem.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/editItem.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/dashboard/itemIndex.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/itemIndex.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/showItem.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/showItem.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/homepage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,11 +162,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyLesson\Web-cloud\MyProject\Testing-Helloworld\friendProject\infinitephone\public\js" />
       <recent name="C:\Users\Menghout Ang\infinitePhone\database\seeds" />
       <recent name="C:\Users\Menghout Ang\infinitePhone\public" />
     </key>
@@ -200,7 +198,7 @@
       <workItem from="1596786701027" duration="1928000" />
       <workItem from="1596788742162" duration="6336000" />
       <workItem from="1596797496294" duration="5940000" />
-      <workItem from="1596805026965" duration="8776000" />
+      <workItem from="1596805026965" duration="12215000" />
     </task>
     <servers />
   </component>
@@ -224,6 +222,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="147" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1596706124879" />
+    <state x="433" y="108" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1596817203193">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="433" y="108" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596817203193" />
     <state x="505" y="120" key="FileChooserDialogImpl" timestamp="1596813323271">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

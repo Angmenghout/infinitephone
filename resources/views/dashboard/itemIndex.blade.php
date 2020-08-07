@@ -41,15 +41,20 @@
                                        </a>
                                     </button>
                                     <button type="button" class="btn btn-success ">
-                                        <a href="{{route('item.editItem',$company->id)}}" style="color: white;text-decoration: none">
+                                        <a href="{{route('item.edit',$company->id)}}" style="color: white;text-decoration: none">
                                             <i class="la la-edit"></i>
                                         </a>
                                     </button>
-                                    <button type="button" class="btn btn-danger ">
-                                        <a href="#" style="color: white; text-decoration: none">
-                                            <i class="la la-trash"></i>
-                                        </a>
-                                    </button>
+
+                                    <form id="form-delete" method="post" action="{{route('item.destroy', $company->id)}}" style="display: inline ">
+                                        @csrf
+                                        {{ method_field('delete') }}
+                                        <button type="button" class="btn btn-danger">
+                                            <a style="color: white; text-decoration: none" href="#" onclick="document.getElementById('form-delete').submit()">
+                                                <i class="la la-trash"></i>
+                                            </a>
+                                        </button>
+                                    </form>
                                 </td>
                             </tr>
                         @endforeach
