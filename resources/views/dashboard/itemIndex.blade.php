@@ -30,14 +30,26 @@
                                 <td>{{$company->id}}</td>
                                 <td><img src="{{url('img/media', $company->image)}}" alt="{{ $company->image }}" height="70px" width="70px"></td>
                                 <td>{{$company->name}}</td>
-                                <td>{{$company->location}}</td>
-                                <td>{{$company->description}}</td>
                                 <td>{{$company->email}}</td>
+                                <td>{{$company->description}}</td>
                                 <td>{{$company->phone}}</td>
+                                <td>{{$company->location}}</td>
                                 <td>
-                                    <button type="button" class="btn btn-primary "><i class="la la-eye"></i></button>
-                                    <button type="button" class="btn btn-success "><i class="la la-edit"></i></button>
-                                    <button type="button" class="btn btn-danger "><i class="la la-trash"></i> </button>
+                                    <button type="button" class="btn btn-primary ">
+                                       <a href="{{route('item.showItem')}}">
+                                           <i class="la la-eye"></i>
+                                       </a>
+                                    </button>
+                                    <button type="button" class="btn btn-success ">
+                                        <a href="{{route('item.editItem',$company->id)}}">
+                                            <i class="la la-edit"></i>
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-danger ">
+                                        <a href="#">
+                                            <i class="la la-trash"></i>
+                                        </a>
+                                    </button>
                                 </td>
                             </tr>
                         @endforeach

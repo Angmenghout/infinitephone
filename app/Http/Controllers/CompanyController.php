@@ -20,6 +20,10 @@ class CompanyController extends Controller
         return view('dashboard.addItem');
     }
 
+    public function show() {
+        return view('dashboard.showItem');
+    }
+
     public function store(Request $request) {
 
         $validator = Validator::make($request->all(),[
@@ -52,4 +56,18 @@ class CompanyController extends Controller
         return redirect()->route('item.index')
             ->with('success', 'Item Created Successfully');
     }
+
+    public function edit($id)
+    {
+        $companies = DB::table('companies')->where('id', $id)->first();
+        return view('dashboard.editItem', compact('companies'));
+    }
+//
+//    public function update($id) {
+//        //
+//    }
+//    public function delete($id) {
+//        //
+//    }
+
 }

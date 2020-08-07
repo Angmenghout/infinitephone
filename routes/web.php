@@ -30,10 +30,18 @@ Route::group(['prefix'=>'dashboard', 'middleware'=>['auth','auth.admin']], funct
     })->name('dashboard.index');
 
     Route::get('/item', 'CompanyController@index')->name('item.index');
+
     Route::get('/item/create', 'CompanyController@create')->name('item.create');
     Route::post('/item/store', 'CompanyController@store')->name('item.store');
 
-    Route::get('/addItem', 'CompanyController@create')->name('item.addItem');
+    Route::get('/item/addItem', 'CompanyController@create')->name('item.addItem');
+
+    Route::get('/item/showItem', 'CompanyController@show')->name('item.showItem');
+
+    Route::get('/item/editItem/{id}', 'CompanyController@edit')->name('item.editItem');
+//    Route::patch('/item/updateItem/{id}', 'CompanyController@update')->name('item.updateItem');
+//
+//    Route::get('/item/deleteItem', 'CompanyController@delete')->name('item.deleteItem');
 
     Route::get('/role', 'UserController@index')->name('user.role');
 
