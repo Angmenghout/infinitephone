@@ -154,7 +154,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="{{route('user.role')}}">
-                        <i class="la la-keyboard-o"></i>
+                        <i class="la la-user"></i>
                         <p>UserRole</p>
                     </a>
                 </li>
@@ -200,7 +200,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary">
-                <h6 class="modal-title"><i class="la la-frown-o"></i> Under Development</h6>
+                <h6 class="modal-title"><i class="la la-frown-o"></i>Under Development</h6>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>

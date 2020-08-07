@@ -14,10 +14,10 @@
                             <th scope="col">#</th>
                             <th scope="col">Cover</th>
                             <th scope="col">Name</th>
-                            <th scope="col">Location</th>
-                            <th scope="col">Descriptions</th>
                             <th scope="col">Email</th>
+                            <th scope="col">Descriptions</th>
                             <th scope="col">PhoneNumber</th>
+                            <th scope="col">Location</th>
                             <th scope="col">Action</th>
 
                         </tr>
