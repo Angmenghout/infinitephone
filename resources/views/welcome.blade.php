@@ -12,13 +12,13 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="https://brandpacks.com/wp-content/uploads/edd/2018/05/phone-repair-shop-tri-fold-brochure-template.jpg" alt="First slide">
+                            <img class="d-block w-100" src="https://z-p3-scontent.fpnh5-4.fna.fbcdn.net/v/t1.0-9/92663203_2790688497713985_2812682947239346176_o.png?_nc_cat=101&_nc_sid=e3f864&_nc_eui2=AeFE11IuakAttDRJ0I1iqRthllmOIS1Vz_SWWY4hLVXP9GNM0d8Jbij_RDCVBrp3lfo-S1J73eYPWj2qQdpJ95rJ&_nc_ohc=ENPfJjh3yVUAX8Ec9Ga&_nc_ht=z-p3-scontent.fpnh5-4.fna&oh=915038ce23e3140f792adec386ff9d85&oe=5F537174">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="https://brandpacks.com/wp-content/uploads/edd/2018/05/phone-repair-shop-tri-fold-brochure-template.jpg" alt="Second slide">
+                            <img class="d-block w-100" src="https://z-p3-scontent.fpnh5-3.fna.fbcdn.net/v/t1.0-9/66210546_2226957437420430_1347794152330362880_o.jpg?_nc_cat=104&_nc_sid=e3f864&_nc_eui2=AeEic5JPdo-JAUekctDZhdMBwHVa47x7GhLAdVrjvHsaEkSIAUrHupUaVMraJioimLiqEZVDJzOZFTBobzQe4bbF&_nc_ohc=Q-cszCjCOfEAX94h8tD&_nc_ht=z-p3-scontent.fpnh5-3.fna&oh=75e4df07a8bf5c73a2b65f508d82d985&oe=5F5465C9">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="https://brandpacks.com/wp-content/uploads/edd/2018/05/phone-repair-shop-tri-fold-brochure-template.jpg" alt="Third slide">
+                            <img class="d-block w-100" src="https://z-p3-scontent.fpnh5-4.fna.fbcdn.net/v/t1.0-9/92138777_2767609533355215_3799944930424520704_o.png?_nc_cat=100&_nc_sid=e3f864&_nc_eui2=AeHQKwQ_8wWS4LEoKo32i4WtcbjC8GLlyg5xuMLwYuXKDhqP31LPsNlAIjPv1VpMbyGzh1sYJBO1jjzS5VT1SYYr&_nc_ohc=lbOUr_dG9S4AX_fvkse&_nc_ht=z-p3-scontent.fpnh5-4.fna&oh=a9f06cc1d172bd4ca9fe7c5feb6f7195&oe=5F540C9E" alt="Third slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
