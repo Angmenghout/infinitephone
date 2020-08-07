@@ -147,7 +147,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{route('item.addItem')}}">
+                    <a href="{{route('item.create')}}">
                         <i class="la la-keyboard-o"></i>
                         <p>AddItem</p>
                     </a>

@@ -1,14 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container" style="margin: 0">
+    <div class="container">
         {{--cover--}}
         <div class="cover">
-            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg" height="800px" width="1230px">
+            <img src="{{url('img/media', $companiesItemDetail->image)}}" height="600" width="600" alt="{{ $companiesItemDetail->image }}">
         </div>
         {{--cover--}}
         <div class="company-name" name="company-name" style="text-align: center ; padding: 50px">
-            <h1>Company Name</h1>
+            <h1>{{ $companiesItemDetail->name }}</h1>
         </div>
         <!--Google map-->
         <div id="map-container-google-3" class="z-depth-1-half map-container" style="padding: 20px">
@@ -17,20 +17,14 @@
         <!--Google Maps-->
         {{--description--}}
         <div class="description" name="description" style="text-align: left; padding: 20px">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged. It was popularised in the 1960s with the release of
-                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p>{{ $companiesItemDetail->description }}</p>
         </div>
         {{--description--}}
         <div class="phone-number" name="phone-number" style="text-align: left; padding-left: 20px; padding-top: 0px">
-            <p>Phone Number : 0992887387</p>
+            <p>Phone Number : {{ $companiesItemDetail->phone }}</p>
         </div>
         <div class="location" name="location" style="text-align: left; padding-left: 20px; padding-top: 0px">
-            <a href="https://goo.gl/maps/7e3dTgoPAUkV2SeQ8">https://goo.gl/maps/7e3dTgoPAUkV2SeQ8</a>
+            <a href="https://goo.gl/maps/7e3dTgoPAUkV2SeQ8">{{ $companiesItemDetail->location }}</a>
         </div>
 
     </div>

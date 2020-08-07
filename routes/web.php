@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,40 +14,28 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
 
-
+//return Homepage
+Route::get('/', 'HomeController@home')->name('home');
+Route::get('/item/detail/{id}', 'HomeController@showDetail')->name('home.show.detail');
 
 Auth::routes();
 
-Route::get('/', 'HomeController@index')->name('home');
-
 Route::group(['prefix'=>'dashboard', 'middleware'=>['auth','auth.admin']], function () {
 
-    Route::get('/', function () {
-        return view('dashboard.dashboard');
-    })->name('dashboard.index');
+    #dashbaord page
+    Route::get('/', 'DashboardController@index')->name('dashboard.index');
 
-    Route::get('/item', 'CompanyController@index')->name('item.index');
-
-    Route::get('/item/create', 'CompanyController@create')->name('item.create');
-    Route::post('/item/store', 'CompanyController@store')->name('item.store');
-
-    Route::get('/item/addItem', 'CompanyController@create')->name('item.addItem');
-
-    Route::get('/item/showItem', 'CompanyController@show')->name('item.showItem');
-
-    Route::get('/item/editItem/{id}', 'CompanyController@edit')->name('item.editItem');
-//    Route::patch('/item/updateItem/{id}', 'CompanyController@update')->name('item.updateItem');
-//
-//    Route::get('/item/deleteItem', 'CompanyController@delete')->name('item.deleteItem');
-
+    //returning userRole in dashboardPage
     Route::get('/role', 'UserController@index')->name('user.role');
 
-});
+    //company controller
+    Route::get('/item', 'CompanyController@index')->name('item.index');
+    Route::get('/item/create', 'CompanyController@create')->name('item.create');
+    Route::post('/item/store', 'CompanyController@store')->name('item.store');
+    Route::get('/item/showItem/{id}', 'CompanyController@show')->name('item.show');
+    Route::get('/item/editItem/{id}', 'CompanyController@edit')->name('item.editItem');
 
-Route::view('/test','companydetail');
+});
 
 
