@@ -13,31 +13,31 @@
                     <tbody>
                     <tr>
                         <td>ID Number</td>
-                        <td>1</td>
+                        <td>{{ $item->id }}</td>
                     </tr>
                     <tr>
                         <td>Image</td>
-                        <td> <img src="#" height="70px" width="70px"></td>
+                        <td> <img src="{{url('img/media', $item->image)}}" alt="{{$item->image}}" height="70px" width="70px"></td>
                     </tr>
                     <tr>
                         <td>Name</td>
-                        <td>Company name</td>
+                        <td>{{ $item->name }}</td>
                     </tr>
                     <tr>
                         <td>Email</td>
-                        <td>Company@gmail.com</td>
+                        <td>{{ $item->email }}</td>
                     </tr>
                     <tr>
                         <td>Description</td>
-                        <td>lorem na</td>
+                        <td>{{ $item->description }}</td>
                     </tr>
                     <tr>
                         <td>Phone Number</td>
-                        <td>09876566372</td>
+                        <td>{{ $item->phone }}</td>
                     </tr>
                     <tr>
                         <td>Location</td>
-                        <td>st 03 No.03 street 20</td>
+                        <td>{{ $item->locaiton }}</td>
                     </tr>
                     </tbody>
                 </table>

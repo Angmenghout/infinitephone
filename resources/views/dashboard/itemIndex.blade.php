@@ -36,7 +36,7 @@
                                 <td>{{$company->location}}</td>
                                 <td>
                                     <button type="button" class="btn btn-primary">
-                                       <a href="{{route('item.showItem')}}" style="color: white; text-decoration: none">
+                                       <a href="{{route('item.show', $company->id)}}" style="color: white; text-decoration: none">
                                            <i class="la la-eye"></i>
                                        </a>
                                     </button>

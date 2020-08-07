@@ -20,8 +20,11 @@ class CompanyController extends Controller
         return view('dashboard.addItem');
     }
 
-    public function show() {
-        return view('dashboard.showItem');
+    public function show($id) {
+
+        $item = Company::findOrFail($id);
+
+        return view('dashboard.showItem', compact('item'));
     }
 
     public function store(Request $request) {
@@ -62,12 +65,5 @@ class CompanyController extends Controller
         $companies = DB::table('companies')->where('id', $id)->first();
         return view('dashboard.editItem', compact('companies'));
     }
-//
-//    public function update($id) {
-//        //
-//    }
-//    public function delete($id) {
-//        //
-//    }
 
 }

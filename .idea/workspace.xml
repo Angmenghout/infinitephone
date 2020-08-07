@@ -21,8 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" id="94e02779-c30c-4cb5-8350-0a1a98855beb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CompanyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CompanyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboradController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/companydetail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/company_detail.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/dashboard/dashboardLayout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/dashboardLayout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/dashboard/itemIndex.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/itemIndex.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/showItem.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/showItem.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/homepage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,8 +163,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Desktop/Ready-Bootstrap-Dashboard" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -171,7 +180,10 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="94e02779-c30c-4cb5-8350-0a1a98855beb" name="Default Changelist" comment="" />
@@ -188,11 +200,12 @@
       <workItem from="1596786701027" duration="1928000" />
       <workItem from="1596788742162" duration="6336000" />
       <workItem from="1596797496294" duration="5940000" />
+      <workItem from="1596805026965" duration="8776000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -211,10 +224,11 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="147" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1596706124879" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1596803426915">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state x="505" y="120" key="FileChooserDialogImpl" timestamp="1596813323271">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1596803426915" />
+    <state x="505" y="120" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596813323271" />
     <state x="297" y="153" key="run.anything.popup" timestamp="1596800878561">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
