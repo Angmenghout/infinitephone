@@ -35,18 +35,18 @@
                                 <td>{{$company->phone}}</td>
                                 <td>{{$company->location}}</td>
                                 <td>
-                                    <button type="button" class="btn btn-primary ">
-                                       <a href="{{route('item.showItem')}}">
+                                    <button type="button" class="btn btn-primary">
+                                       <a href="{{route('item.showItem')}}" style="color: white; text-decoration: none">
                                            <i class="la la-eye"></i>
                                        </a>
                                     </button>
                                     <button type="button" class="btn btn-success ">
-                                        <a href="{{route('item.editItem',$company->id)}}">
+                                        <a href="{{route('item.editItem',$company->id)}}" style="color: white;text-decoration: none">
                                             <i class="la la-edit"></i>
                                         </a>
                                     </button>
                                     <button type="button" class="btn btn-danger ">
-                                        <a href="#">
+                                        <a href="#" style="color: white; text-decoration: none">
                                             <i class="la la-trash"></i>
                                         </a>
                                     </button>

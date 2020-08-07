@@ -99,7 +99,7 @@
                             <div class="card-body card-body-cascade">
 
                                 <!-- Label -->
-                                <h5 class="pink-text pb-2 pt-1"><i class="fas fa-utensils"></i>Company <Name></Name></h5>
+                                <h5 class="pink-text pb-2 pt-1"><i class="fas fa-utensils"></i>Company<Name></Name></h5>
                                 <!-- Title -->
                                 <h6 class="font-weight-bold card-title">company@email.com</h6>
                                 <!-- Text -->
