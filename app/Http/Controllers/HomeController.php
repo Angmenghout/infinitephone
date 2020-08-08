@@ -20,6 +20,10 @@ class HomeController extends Controller
         return view('homepage', compact('companiesItem'));
     }
 
+    public function test() {
+        return view('pages.homepage');
+    }
+
     public function showDetail($id) {
 
         $companiesItemDetail = DB::table('companies')->find($id);

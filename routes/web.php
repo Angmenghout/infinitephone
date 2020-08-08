@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 //return Homepage
 Route::get('/', 'HomeController@home')->name('home');
+Route::get('/test', 'HomeController@test')->name('test');
 Route::get('/item/detail/{id}', 'HomeController@showDetail')->name('home.show.detail');
 
 Auth::routes();
