@@ -8,7 +8,7 @@
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link rel="icon" href="{{ url('img/favicon.png') }}" type="image/png" />
-    <title>Edustage Education</title>
+    <title>Infinite Phone</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css')}}" />
     <link rel="stylesheet" href="{{ asset('css/flaticon.css') }}" />

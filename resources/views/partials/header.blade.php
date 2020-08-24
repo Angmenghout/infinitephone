@@ -19,13 +19,13 @@
                 </form>
             </div>
         </div>
-
+{{--        <img src="{{url('')}}" alt=""--}}
+{{--        />--}}
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <a class="navbar-brand logo_h" href="index.html"
-                ><img src="{{url('img/logo.png')}}" alt=""
-                    /></a>
+                ><b>Infinite Phone</b></a>
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -35,7 +35,8 @@
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span class="icon-bar"></span> <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -60,19 +61,6 @@
                                 aria-expanded="false"
                             >Pages</a
                             >
-                            <ul class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="courses.html">Courses</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="course-details.html"
-                                    >Course Details</a
-                                    >
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="elements.html">Elements</a>
-                                </li>
-                            </ul>
                         </li>
                         <li class="nav-item submenu dropdown">
                             <a
@@ -84,24 +72,9 @@
                                 aria-expanded="false"
                             >Blog</a
                             >
-                            <ul class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="blog.html">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="single-blog.html"
-                                    >Blog Details</a
-                                    >
-                                </li>
-                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link search" id="search">
-                                <i class="ti-search"></i>
-                            </a>
                         </li>
                     </ul>
                 </div>
